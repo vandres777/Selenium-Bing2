@@ -71,15 +71,15 @@ public class GoogleSearchTest {
         textAreaElement.sendKeys("cristiano ronaldo");
         textAreaElement.sendKeys(Keys.RETURN);
 
-        String[] teams = {"Nike", "Adidas", "Puma", "Reebok", "New Balance",
-                "Converse", "Vans", "Dr. Martens", "Timberland", "Clarks",
-                "Gucci", "Louis Vuitton", "Prada", "Chanel", "Dior",
-                "Jimmy Choo", "Christian Louboutin", "Manolo Blahnik", "Salvatore Ferragamo", "Tod's",
-                "Steve Madden", "Aldo", "Charles & Keith", "Nine West", "Schutz",
-                "H&M", "Zara", "Mango", "Bershka", "Pull & Bear",
-                "Asos", "Shein", "Romwe", "Forever 21", "Topshop",
-                "Fila", "Saucony", "Brooks", "Hoka One One", "On Running",
-                "Skechers", "Crocs", "Ugg", "Sperry", "Keds"};
+        String[] teams = {"Samsung", "LG", "Sony", "TCL", "Hisense",
+                "Panasonic", "Philips", "Xiaomi", "Haier", "Vizio",
+                "Sharp", "Toshiba", "JVC", "Sanyo", "Grundig",
+                "RCA", "Magnavox", "AOC", "BenQ", "Hyundai",
+                "Philips", "Hisense", "LG", "Panasonic", "Samsung",
+                "Sony", "TCL", "Xiaomi", "Haier", "Vizio",
+                "Sharp", "Toshiba", "JVC", "Sanyo", "Grundig",
+                "RCA", "Magnavox", "AOC", "BenQ", "Hyundai",
+                "Konka", "Changhong", "Skyworth", "Mi", "LeEco"};
 
         for (String team : teams) {
             // Re-locate the element to avoid StaleElementReferenceException
