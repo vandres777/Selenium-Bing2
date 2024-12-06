@@ -71,15 +71,15 @@ public class GoogleSearchTest {
         textAreaElement.sendKeys("cristiano ronaldo");
         textAreaElement.sendKeys(Keys.RETURN);
 
-        String[] teams = {"Samsung", "LG", "Sony", "TCL", "Hisense",
-                "Panasonic", "Philips", "Xiaomi", "Haier", "Vizio",
-                "Sharp", "Toshiba", "JVC", "Sanyo", "Grundig",
-                "RCA", "Magnavox", "AOC", "BenQ", "Hyundai",
-                "Philips", "Hisense", "LG", "Panasonic", "Samsung",
-                "Sony", "TCL", "Xiaomi", "Haier", "Vizio",
-                "Sharp", "Toshiba", "JVC", "Sanyo", "Grundig",
-                "RCA", "Magnavox", "AOC", "BenQ", "Hyundai",
-                "Konka", "Changhong", "Skyworth", "Mi", "LeEco"};
+        String[] teams = {"Samsung", "Apple", "Xiaomi", "Huawei", "Oppo",
+                "Realme", "Vivo", "OnePlus", "Motorola", "Nokia",
+                "Google", "Sony", "LG", "TCL", "Hisense",
+                "BlackBerry", "Alcatel", "ZTE", "Honor", "Lenovo",
+                "Tecno", "Infinix", "Itel", "Coolpad", "Blu",
+                "Wiko", "Acer", "Asus", "Microsoft", "Palm",
+                "Blackview", "Doogee", "Ulefone", "Caterpillar", "Oukitel",
+                "Fairphone", "Unihertz", "Punkt MP02", "Nothing", "Nothing Phone (1)"
+        };
 
         for (String team : teams) {
             // Re-locate the element to avoid StaleElementReferenceException
