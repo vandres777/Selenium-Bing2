@@ -71,14 +71,10 @@ public class GoogleSearchTest {
         textAreaElement.sendKeys("cristiano ronaldo");
         textAreaElement.sendKeys(Keys.RETURN);
 
-        String[] teams = {"Samsung", "Apple", "Xiaomi", "Huawei", "Oppo",
-                "Realme", "Vivo", "OnePlus", "Motorola", "Nokia",
-                "Google", "Sony", "LG", "TCL", "Hisense",
-                "BlackBerry", "Alcatel", "ZTE", "Honor", "Lenovo",
-                "Tecno", "Infinix", "Itel", "Coolpad", "Blu",
-                "Wiko", "Acer", "Asus", "Microsoft", "Palm",
-                "Blackview", "Doogee", "Ulefone", "Caterpillar", "Oukitel",
-                "Fairphone", "Unihertz", "Punkt MP02", "Nothing", "Nothing Phone (1)"
+        String[] teams = { "Rolex", "Omega", "Patek Philippe", "Audemars Piguet", "Vacheron Constantin",
+                "Breitling", "IWC Schaffhausen", "Cartier", "TAG Heuer", "Hublot",
+                "Longines", "Tissot", "Seiko", "Casio", "Citizen",
+                "Hamilton", "Michael Kors", "Fossil", "Daniel Wellington", "Skagen"
         };
 
         for (String team : teams) {
@@ -108,3 +104,4 @@ public class GoogleSearchTest {
 
 /////prueba github
 // otra prueba
+/////añado prueba para rama 4
