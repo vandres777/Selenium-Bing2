@@ -12,7 +12,7 @@ public class WebDriverConfig {
 
     public static WebDriver getChromeDriver() {
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("--incognito");
+        options.addArguments("--incognito");
         options.addArguments("--start-maximized");
         //options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"}); // sirve para evitar el mensaje de Chrome que indica que se está controlando el navegador
         //options.addArguments("--headless");
