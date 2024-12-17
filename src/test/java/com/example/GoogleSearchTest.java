@@ -71,19 +71,18 @@ public class GoogleSearchTest {
         textAreaElement.sendKeys("cristiano ronaldo");
         textAreaElement.sendKeys(Keys.RETURN);
 
-        String[] teams = { "Super Mario Bros.", "The Legend of Zelda", "Sonic the Hedgehog", "Donkey Kong", "Pac-Man",
-                "Tetris", "Space Invaders", "Pong", "Street Fighter II", "Mortal Kombat",
-                "Final Fantasy VII", "Metal Gear Solid", "Resident Evil", "Tomb Raider", "Diablo",
-                "The Elder Scrolls III: Morrowind", "Half-Life", "StarCraft", "Warcraft II: Tides of Darkness", "Quake",
-                "GoldenEye 007", "Grand Theft Auto III", "The Sims", "Counter-Strike", "Red Alert 2",
-                "Age of Empires II", "Civilization II", "Diablo II", "StarCraft: Brood War", "Warcraft III: Reign of Chaos",
-                "The Witcher", "Mass Effect", "BioShock", "Portal", "Left 4 Dead",
-                "Minecraft", "The Elder Scrolls V: Skyrim", "Dark Souls", "Red Dead Redemption", "The Witcher 3: Wild Hunt",
-                "Overwatch", "League of Legends", "Fortnite", "PUBG", "Rocket League",
-                "Super Smash Bros. Melee", "Mario Kart 64", "Halo: Combat Evolved", "Metroid Prime", "Crash Bandicoot",
-                "Spyro the Dragon", "Tony Hawk's Pro Skater 2", "Gran Turismo 2", "Twisted Metal 2", "Ridge Racer",
-                "Chrono Trigger", "Final Fantasy IV", "EarthBound", "Secret of Mana", "Chrono Cross"
-
+        String[] teams = { "Argentina", "Brasil", "Canadá", "Chile", "Colombia",
+                "Costa Rica", "Cuba", "Ecuador", "Estados Unidos", "México",
+                "Perú", "Uruguay", "Venezuela", "Alemania", "Austria",
+                "Bélgica", "España", "Francia", "Italia", "Países Bajos",
+                "Portugal", "Reino Unido", "Rusia", "Suecia", "Suiza",
+                "Australia", "China", "India", "Japón", "Corea del Sur",
+                "Indonesia", "Malasia", "Filipinas", "Singapur", "Tailandia",
+                "Vietnam", "Egipto", "Marruecos", "Nigeria", "Sudáfrica",
+                "Argelia", "Túnez", "Etiopía", "Kenia", "Tanzania",
+                "Angola", "Congo", "Ghana", "Madagascar", "Malian",
+                "Senegal", "Sudán", "Uganda", "Zambia", "Zimbabue",
+                "Grecia", "Irlanda", "Noruega", "Polonia", "Turquía"
         };
 
         for (String team : teams) {
@@ -111,3 +110,4 @@ public class GoogleSearchTest {
     }
 }
 //elimine todos los comentarios
+//// hacer git reset --soft HEAD~1
